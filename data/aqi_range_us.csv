@@ -1,0 +1,8 @@
+﻿i_low,i_high,category,color_code
+0,50,Good,green
+51,100,Moderate,yellow
+101,150,Unhealthy for Sensitive Groups,orange
+151,200,Unhealty,red
+201,300,Very Unhealthy,purple
+301,400,Hazardous,brown
+401,500,Hazardous,brown

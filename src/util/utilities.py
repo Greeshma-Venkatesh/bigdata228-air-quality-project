@@ -55,3 +55,12 @@ def get_data_by_city(data_df, city):
     else:
         print("Error: Empty dataframe!")
         return
+
+
+def get_data_by_country(data_df, country):
+    """Get data by city."""
+    if data_df:
+        return data_df[data_df['country'] == country]
+    else:
+        print("Error: Empty dataframe!")
+        return
