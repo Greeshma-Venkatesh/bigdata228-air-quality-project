@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 21 20:32:13 2021
-
-@author: jyotipatel
-"""
-
 """
 Utilities.
 
@@ -13,7 +5,7 @@ Created on Sun Feb 21 20:19:35 2021
 
 @author: jyotipatel
 """
-
+import pickle
 
 def get_unique_parameter(data_df):
     """Get unique parameters."""
@@ -64,3 +56,9 @@ def get_data_by_country(data_df, country):
     else:
         print("Error: Empty dataframe!")
         return
+
+
+def write_pickle_file(filename, object):
+    with open(filename, 'wb') as f:
+        pickle.dump(object, f)
+    return "success"
