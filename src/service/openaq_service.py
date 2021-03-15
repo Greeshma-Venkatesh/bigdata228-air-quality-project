@@ -10,8 +10,8 @@ def get_top_city_by_param_by_date(data):
     print("Checking if file exits:", filenamepath)
     if os.path.exists(filenamepath):
         df = pd.read_csv(filenamepath)
-        return df.head()
+        return True, df.head()
     else:
         print("Data doesn't exist!")
-        return "Data doesn't exist!"
+        return False, -1
 

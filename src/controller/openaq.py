@@ -15,5 +15,8 @@ def get_openaq_data_by_date():
 @app.route('/openaq/topCitiesByParam', methods=['GET', 'POST'])
 def get_top_cities_by_param_by_date():
     data = request.get_json()
-    data_df = openaq_service.get_top_city_by_param_by_date(data)
-    return data_df.to_json(orient='records')
+    isData, data_df = openaq_service.get_top_city_by_param_by_date(data)
+    if isData:
+        return data_df.to_json(orient='records')
+    else:
+        return jsonify({"msg": "Data doesn't exist!"})
