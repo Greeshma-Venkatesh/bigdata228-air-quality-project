@@ -10,7 +10,7 @@ import os
 import pickle
 from util import aqi_utility
 
-datadir = os.path.abspath('../../data')
+datadir = os.path.abspath('../data')
 
 def get_parameter_aqi_for_all_cities(data_df, unique_cities, unique_parameter):
     """Get insights by cities."""

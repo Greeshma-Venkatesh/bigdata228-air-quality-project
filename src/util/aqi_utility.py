@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-datadir = os.path.abspath('../../data')
+datadir = os.path.abspath('../data')
 df_aqi_pm25 = pd.read_csv(datadir + '/country/usa/aqi/aqi_pm25_us.csv')
 df_aqi_range_usa = pd.read_csv(datadir + '/country/usa/aqi/aqi_range_us.csv')
 

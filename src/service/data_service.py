@@ -3,7 +3,7 @@ import pandas as pd
 from util import utilities
 import os
 
-datadir = os.path.abspath('../../data')
+datadir = os.path.abspath('../data')
 
 def fetch_openaq_raw_data_by_date(str_date, bucket_name, folder_name, zone):
     s3 = boto3.resource(
