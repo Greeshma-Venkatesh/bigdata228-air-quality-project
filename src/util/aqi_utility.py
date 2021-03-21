@@ -25,3 +25,13 @@ def get_aqi_category(aqi):
         if aqi >= df_aqi_range_usa.iloc[i]["i_low"] and aqi <= df_aqi_range_usa.iloc[i]["i_high"]:
             return df_aqi_range_usa.iloc[i]["category"], df_aqi_range_usa.iloc[i]["color_code"]
 
+
+def get_clow_chigh_ilow_ihigh_by_param(mean, param):
+    df_aqi_param = pd.read_csv(datadir + '/country/usa/aqi/aqi_' + param + '_us.csv')
+    for i in range(0, df_aqi_param.shape[0]):
+        c_low = df_aqi_param.iloc[i]["c_low"]
+        c_high = df_aqi_param.iloc[i]["c_high"]
+        i_low = df_aqi_range_usa.iloc[i]["i_low"]
+        i_high = df_aqi_range_usa.iloc[i]["i_high"]
+        if mean >= c_low and mean <= c_high:
+            return c_low, c_high, i_low, i_high

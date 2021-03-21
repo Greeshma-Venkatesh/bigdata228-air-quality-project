@@ -12,6 +12,12 @@ def get_openaq_data_by_date():
     return
 
 
+@app.route('/openaq/createInsightByParam', methods=['POST'])
+def create_openaq_insight_by_param():
+    data = request.get_json()
+    return openaq_service.create_insights_by_parameter(data)
+
+
 @app.route('/openaq/topCitiesByParam', methods=['GET', 'POST'])
 def get_top_cities_by_param_by_date():
     data = request.get_json()
