@@ -1,0 +1,8 @@
+﻿c_low,c_high,unit,duration_hr,parameter
+0,35,ppb,1,so2
+36,75,ppb,1,so2
+76,185,ppb,1,so2
+186,304,ppb,1,so2
+305,604,ppb,24,so2
+605,804,ppb,24,so2
+805,1004,ppb,24,so2

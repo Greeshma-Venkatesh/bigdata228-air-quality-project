@@ -1,0 +1,8 @@
+﻿c_low,c_high,unit,duration_hr,parameter
+0.0,4.4,ppm,8,co
+4.5,9.4,ppm,8,co
+9.5,12.4,ppm,8,co
+12.5,15.4,ppm,8,co
+15.5,30.4,ppm,8,co
+30.5,40.4,ppm,8,co
+40.5,50.4,ppm,8,co

@@ -56,8 +56,8 @@ def create_insights_by_parameter(str_date, list_param):
         for item in list_data:
             for param in item["parameters"]:
                 if param["parameter"] == parameter:
-                    c_low, c_high, i_low, i_high = aqi_utility.get_clow_chigh_ilow_ihigh_by_param(param["mean"], parameter)
-                    aqi = aqi_utility.calculate_aqi_usa(c_low, c_high, i_low, i_high, param["mean"])
+                    c_low, c_high, i_low, i_high = aqi_utility.get_clow_chigh_ilow_ihigh_by_param(abs(param["mean"]), parameter)
+                    aqi = aqi_utility.calculate_aqi_usa(c_low, c_high, i_low, i_high, abs(param["mean"]))
                     category, color_code = aqi_utility.get_aqi_category(aqi)
                     df_param_city_aqi = df_param_city_aqi.append(
                         {'city': item["city"], 'aqi': aqi, 'category': category, 'color_code': color_code},
