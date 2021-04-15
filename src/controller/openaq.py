@@ -26,3 +26,9 @@ def get_top_cities_by_param_by_date():
         return data_df.to_json(orient='records')
     else:
         return jsonify({"msg": "Data doesn't exist!"})
+
+
+@app.route('/openaq/ingestProcessSaveData', methods=['POST'])
+def ingest_process_save_data():
+    data = request.get_json()
+    return openaq_service.ingest_process_save_data_between_dates(data)

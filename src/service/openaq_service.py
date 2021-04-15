@@ -23,4 +23,7 @@ def create_insights_by_parameter(data):
     return insight_service.create_insights_by_parameter(str_date, list_param)
 
 
-
+def ingest_process_save_data_between_dates(data):
+    start_date = data["start_date"]
+    end_date = data["end_date"]
+    return insight_service.ingest_process_save_data_between_dates(start_date, end_date)

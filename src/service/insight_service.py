@@ -9,6 +9,8 @@ import pandas as pd
 import os
 import pickle
 from util import aqi_utility
+from util import utilities
+from service import data_service
 
 datadir = os.path.abspath('../data')
 
@@ -65,3 +67,11 @@ def create_insights_by_parameter(str_date, list_param):
         df_param_city_aqi.sort_values('aqi', ascending=False)
         df_param_city_aqi.to_csv(datadir + "/country/usa/" + str_date + "/insights/insights_usa_" + parameter + ".csv", encoding='utf-8', index=False)
     return "Success"
+
+
+def ingest_process_save_data_between_dates(start_date, end_date):
+    list_dates = utilities.get_all_dates_between_dates(start_date, end_date)
+    for str_date in list_dates:
+        combined_data_for_day = data_service.fetch_openaq_raw_data_by_date(str_date, "openaq-fetches", "realtime", "us-east-1", False)
+        data_service.process_raw_data(combined_data_for_day, str_date)
+    return "Success!"
