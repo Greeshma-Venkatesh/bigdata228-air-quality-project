@@ -8,6 +8,7 @@ import {FormControl} from '@angular/forms';
 import * as moment from 'moment';
 import { DatePipe } from '@angular/common'
 import { Dataset } from 'src/app/Dataset';
+import { DailyData } from 'src/app/DailyData';
 
 @Component({
   selector: 'app-dashboard',
@@ -17,6 +18,8 @@ import { Dataset } from 'src/app/Dataset';
 export class DashboardComponent implements OnInit {
 
   dashboard:Dashboard[];
+  dashboard2:Dashboard[];
+  dailydata:DailyData[];
   chartOne;
   chartTwo;
   chartThree;
@@ -34,6 +37,10 @@ export class DashboardComponent implements OnInit {
 
     var labels  = new Array;
     var data  = new Array;
+    var labelTwo  = new Array;
+    var dataTwo  = new Array;
+    var labelThree  = new Array;
+    var labelFour  = new Array;
     this.getWeeksRange();
     //This will get data from API(dashboard.service.ts) and stores it in dashboard variable, make use of this variable for the API data
     this.service.getData().subscribe(dataapi => {
@@ -41,21 +48,20 @@ export class DashboardComponent implements OnInit {
       console.log('FETCHED DATA:', this.dashboard);
       this.dashboard.forEach(element => {
         labels.push(element.city);
-        var tempData = element.aqi * 10000;
-        data.push(tempData);
+        data.push(element.aqi);
       });
 
 
       this.chartOne = new Chart('chartOne', this.createChartOne("bar", labels, data, "#65ba68"));
-      var labelTwo  = new Array;
+      
       labelTwo.push("Bangalore");
       labelTwo.push("Delhi");
       labelTwo.push("Chennai");
       labelTwo.push("Mumbai");
       labelTwo.push("Calcutta");
-      this.chartTwo = new Chart('chartTwo', this.createChartOne("bar", labelTwo, data.map(x => x * 5), "#ffa624"));
       
-      var labelThree  = new Array;
+      
+      
       labelThree.push("B1");
       labelThree.push("D1");
       labelThree.push("C1");
@@ -63,7 +69,7 @@ export class DashboardComponent implements OnInit {
       labelThree.push("C1");
       this.chartThree = new Chart('chartThree', this.createChartOne("bar", labelThree, data.map(x => x * 10), "#ef524f"));
       
-      var labelFour  = new Array;
+      
       labelFour.push("B2");
       labelFour.push("D2");
       labelFour.push("C2");
@@ -72,30 +78,29 @@ export class DashboardComponent implements OnInit {
       this.chartFour = new Chart('chartFour', this.createChartOne("bar", labelFour, data.map(x => x * 15), "#3366ff"));
     });
 
+    this.service.getAllData().subscribe(dailydataapi => {
+      this.dailydata = dailydataapi;
+      console.log('FETCHED DAILY DATA:', this.dailydata);
+      this.dailydata.forEach(element => {
+        if(element.param == "co") {
+          this.dashboard2 = element.data;
+          this.dashboard2.forEach(dataparam => {
+            labelTwo.push(dataparam.city);
+            dataTwo.push(dataparam.aqi);
+          });
+        }
+      });
+
+      this.chartTwo = new Chart('chartTwo', this.createChartOne("bar", labelTwo, dataTwo, "#ffa624"));
+    });
     console.log("Labels:", labels);
     console.log("Data:", data);
+    console.log("Labels2:", labelTwo);
+    console.log("Data2:", dataTwo);
     //Chart one
     //Get the data from API and add it to the below arrays
     //labels: bar names
     //data: bar values
-    //var labels  = new Array;
-    //var data  = new Array;
-    //labels.push("a");
-    //labels.push("b");
-    //labels.push("c");
-    //labels.push("d");
-    //labels.push("e");
-    //labels.push("f");
-
-    //data.push("10");
-    //data.push("20");
-    //data.push("30");
-    //data.push("40");
-    //data.push("50");
-    //data.push("60");
-
-    //this.chartOne = new Chart('chartOne', this.createChartOne("bar", labels,data));
-
 
     //chart two
     //Get the data from API and add it to the below arrays
@@ -313,7 +318,7 @@ export class DashboardComponent implements OnInit {
       responsive: true,
       title: {
         display: true,
-        text: ''
+        text: 'AQI'
       },
       scales: {
         yAxes: [{
