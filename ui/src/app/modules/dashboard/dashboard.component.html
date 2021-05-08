@@ -1,0 +1,125 @@
+<h1 style="margin:1%;">Dashboard</h1>
+
+
+
+<div style="width:80%; margin-top:1%;margin-left:3%;">
+    <mat-card class="mat-elevation-z2">
+        <div style="display: flex;">
+              <div>
+                <h3 class="chartHeader"> Day Highlights</h3>
+              </div>
+              <div style="margin-left: 100px">
+                  <mat-form-field style="color:#394454">
+                    <input matInput style=" color:#394454;" disabled [matDatepicker]="picker" [formControl]="defaultTodayDate"
+                      (dateInput)="chooseDate('input', $event)" (dateChange)="chooseDate('change', $event)">
+                    <mat-placeholder class="chooseDate">Choose a date</mat-placeholder>
+                    <mat-datepicker-toggle style=" background-color:#999999;" matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker disabled="false" #picker style="color:#999999;"></mat-datepicker>
+                  </mat-form-field>
+              </div>
+        </div>
+        
+      <div style="max-width:80%;margin-top:1%;" id="wrapper">
+          <div id="left">
+            <mat-card class="mat-elevation-z1" style="height:34vh; width:36.5vw">
+              <div class="center">
+                <!-- <mat-spinner  style="margin:0 auto;" class="custom-spinner" diameter=30 mode="indeterminate">
+                </mat-spinner> -->
+              </div>
+              <div >
+                <h4 class="chartHeader"> Param 1</h4>
+              </div>
+              <div>
+                <canvas style="height:18vh; width:25vw" id="chartOne"> </canvas>
+              </div>
+            </mat-card>
+          </div>
+          <div id="right">
+            <mat-card class="mat-elevation-z1" style="height:34vh; width:36.5vw">
+              <div class="center">
+                <!-- <mat-spinner style="margin:0 auto;" class="custom-spinner" diameter=30 mode="indeterminate">
+                </mat-spinner> -->
+              </div>
+              <div>
+                <h4 class="chartHeader"> Param 2 </h4>
+              </div>
+              <div>
+                <canvas style="height:18vh; width:25vw" id="chartTwo"> </canvas>
+              </div>
+            </mat-card>
+          </div>
+      </div>
+
+      <div style="max-width:80%;margin-top:1%;" id="wrapper">
+        <div id="left">
+          <mat-card class="mat-elevation-z1" style="height:34vh; width:36.5vw">
+            <div class="center">
+              <!-- <mat-spinner  style="margin:0 auto;" class="custom-spinner" diameter=30 mode="indeterminate">
+              </mat-spinner> -->
+            </div>
+            <div >
+              <h4 class="chartHeader"> Param 3</h4>
+    
+            </div>
+            <div>
+              <canvas style="height:18vh; width:25vw" id="chartThree"> </canvas>
+            </div>
+          </mat-card>
+        </div>
+        <div id="right">
+          <mat-card class="mat-elevation-z1" style="height:34vh; width:36.5vw">
+            <div class="center">
+              <!-- <mat-spinner style="margin:0 auto;" class="custom-spinner" diameter=30 mode="indeterminate">
+              </mat-spinner> -->
+            </div>
+            <div>
+              <h4 class="chartHeader"> Param 4</h4>
+            </div>
+            <div>
+              <canvas style="height:18vh; width:25vw" id="chartFour"> </canvas>
+            </div>
+          </mat-card>
+        </div>
+    </div>
+    </mat-card>
+  </div>
+
+
+
+
+
+
+<!-- <div style="width:50%;">
+    <mat-card style="margin-left:5%;height:400px">
+        <mat-form-field style="color:#394454">
+            <input matInput style=" color:#394454;" disabled [matDatepicker]="picker" [formControl]="defaultTodayDate"
+              (dateInput)="chooseDate('input', $event)" (dateChange)="chooseDate('change', $event)">
+            <mat-placeholder class="chooseDate">Choose a date</mat-placeholder>
+            <mat-datepicker-toggle style=" background-color:#999999;" matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker disabled="false" #picker style="color:#999999;"></mat-datepicker>
+        </mat-form-field>
+            <div>
+            <h3>Chart one</h3>
+            </div>
+                <canvas style="max-height:400px;height:300px;width:700px;"  id="chartOne"> </canvas>
+    </mat-card>
+</div> -->
+
+<br />
+<div style="width:80%; margin-top:1%;margin-left:3%;">
+        <mat-card style="height:500px;">
+            <mat-form-field>
+                <mat-label class="chooseWeek">Choose a Week</mat-label>
+                <mat-select style="color:#394454;"  (selectionChange)="onWeekChange($event)" [formControl]="currentWeek ">
+                  <mat-option style="color:#394454;" *ngFor="let week of weeksForUi" [value]="week">
+                    {{week}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+                <div>
+                    <h3>Chart two</h3>
+                    </div>
+                    <canvas style="max-height:40vh;max-width:80vw;height:35vh; width:70vw" id="chartWeek"> </canvas>
+        </mat-card>
+    </div>
+    <br />

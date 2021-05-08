@@ -1,0 +1,172 @@
+
+  
+  input matInput{
+    color: white;
+  }
+  
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: white !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: rgb(157, 156, 156) !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: white !important;;
+  }
+  
+  ::ng-deep .mat-form-field-label {
+    /*change color of label*/
+    color: white !important;
+   }
+  
+  
+  mat-datepicker-toggle {
+    color: white !important;
+  }
+
+  .contents {
+    padding-top: 10px;
+
+   
+}
+
+.mat-elevation-z4 {
+    width: 500px;
+}
+
+:host ::ng-deep .custom-spinner circle{   
+    stroke: #2ba8ff;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+::ng-deep .mat-tooltip {
+  /*background-image: url('/assets/quote.jpg');
+   background-size: cover;*/
+  font-size: 16px;
+  background-color: #f78b5d;
+  font-weight: 600;
+  max-width: unset !important;
+  max-width: 400px;
+  white-space: pre-line;
+  font-family: "'Times New Roman',  Helvetica, sans-serif";
+  position: relative !important; 
+  z-index: 1000;
+  padding: 3%;
+      
+}
+
+#wrapper {
+  display: flex;
+}
+
+#left {
+  flex: 0 0 46.75%;
+}
+
+#right {
+  flex: 0 0 46.75%;
+  margin-left: 22px;
+}
+
+::ng-deep .mat-card{
+  border-radius: 5px !important;
+ }
+
+ .chooseDate {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#394454;
+}
+
+.chartHeader {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#114388;
+}
+
+.charDate {
+  font-size: 13px;
+  font-family: 'Times New Roman',  Helvetica, sans-serif;
+  color:#394454;
+}
+
+.metricsHeader {
+  margin-left:5px;
+  margin-top:5px;
+  font-size: 19px;
+  font-family: 'Times New Roman',  Helvetica, sans-serif;
+  color:#23272d;
+}
+
+.metricsHighestHeader {
+  margin-left:5px;
+  font-size: 19px;
+  font-family: 'Times New Roman',  Helvetica, sans-serif;
+  color:#23272d;
+}
+.chartHeader {
+  font-size: 18px;
+  font-family: 'Times New Roman',  Helvetica, sans-serif;
+  color:#114388;
+}
+.metricsValue {
+  font-size: 40px;
+  color:#3a3a3a;
+  font-family: 'Merriweather';
+}
+.profileCard{
+  width:500px;
+  height:10px;
+ 
+   }
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.profileImage {
+
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+
+}
+
+.topThree {
+width: 45px;
+height: 45px;
+object-fit: cover;
+border-radius: 50%;
+border: 3px solid white;
+}
+
+.profileName {
+font-size: 16px;
+font-family: "'Arial',  Helvetica, sans-serif";
+color:#3a3a3a;
+}
+.profileCcoId {
+font-size: 14px;
+font-family: 'Times New Roman',  Helvetica, sans-serif;
+color:#3a3a3a;
+}

@@ -1,0 +1,24 @@
+.profile-card {
+    text-align: center;
+    padding: 20px 10px 10px 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/*.list-item-active {
+    font-weight: bold;
+    color: mat-color( darker) !important;
+    background: rgba(221, 34, 34, 0.04);
+  }*/
+
+  .mat-divider {
+    border-top-color:rgba(250, 250, 250, 0.5);
+    width:240px;
+    margin:10px;
+    
+  }
