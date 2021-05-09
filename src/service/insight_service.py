@@ -11,6 +11,7 @@ import pickle
 from util import aqi_utility
 from util import utilities
 from service import data_service
+from pathlib import Path
 
 datadir = os.path.abspath('../data')
 
@@ -65,6 +66,7 @@ def create_insights_by_parameter(str_date, list_param):
                         {'city': item["city"], 'aqi': aqi, 'category': category, 'color_code': color_code},
                         ignore_index=True)
         df_param_city_aqi.sort_values('aqi', ascending=False)
+        Path(datadir + "/country/usa/" + str_date + "/insights").mkdir(parents=True, exist_ok=True)
         df_param_city_aqi.to_csv(datadir + "/country/usa/" + str_date + "/insights/insights_usa_" + parameter + ".csv", encoding='utf-8', index=False)
     return "Success"
 
