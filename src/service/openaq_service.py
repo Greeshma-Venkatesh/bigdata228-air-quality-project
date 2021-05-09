@@ -3,6 +3,7 @@ import pandas as pd
 from service import insight_service
 from util import utilities
 from util import aqi_utility
+import json
 
 datadir = os.path.abspath('../data')
 
@@ -39,10 +40,12 @@ def get_top_cities_all_param_by_date(data):
                 df.sort_values(by=['aqi'], inplace=True)
             else:
                 df.sort_values(by=['aqi'], inplace=True, ascending=False)
-            dict_aqi_data["data"] = df.head().to_json(orient='records')
+            df = df.head()
+            dict_aqi_data["data"] = json.loads(df.to_json(orient='records'))
         else:
             dict_aqi_data["data"] = []
         list_aqi_data.append(dict_aqi_data)
+    print(list_aqi_data)
     return list_aqi_data
 
 def get_top_cities_all_param_between_dates(data):
