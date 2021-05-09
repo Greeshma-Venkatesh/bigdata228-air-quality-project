@@ -34,6 +34,14 @@ def get_top_cities_all_param_by_date():
     list_data = openaq_service.get_top_cities_all_param_by_date(data)
     return jsonify(list_data)
 
+
+@app.route('/openaq/topCitiesAllParamBetweenDates', methods=['GET', 'POST'])
+def get_top_cities_all_param_between_dates():
+    data = request.get_json()
+    list_data = openaq_service.get_top_cities_all_param_between_dates(data)
+    return jsonify(list_data)
+
+
 @app.route('/openaq/ingestProcessSaveData', methods=['POST'])
 def ingest_process_save_data():
     data = request.get_json()
