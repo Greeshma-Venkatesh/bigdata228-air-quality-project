@@ -19,6 +19,8 @@ export class DashboardComponent implements OnInit {
 
   dashboard:Dashboard[];
   dashboard2:Dashboard[];
+  dashboard3:Dashboard[];
+  dashboard4:Dashboard[];
   dailydata:DailyData[];
   chartOne;
   chartTwo;
@@ -40,42 +42,15 @@ export class DashboardComponent implements OnInit {
     var labelTwo  = new Array;
     var dataTwo  = new Array;
     var labelThree  = new Array;
+    var dataThree  = new Array;
     var labelFour  = new Array;
+    var dataFour  = new Array;
     this.getWeeksRange();
     //This will get data from API(dashboard.service.ts) and stores it in dashboard variable, make use of this variable for the API data
     this.service.getData().subscribe(dataapi => {
       this.dashboard = dataapi;
       console.log('FETCHED DATA:', this.dashboard);
-      this.dashboard.forEach(element => {
-        labels.push(element.city);
-        data.push(element.aqi);
-      });
-
-
-      this.chartOne = new Chart('chartOne', this.createChartOne("bar", labels, data, "#65ba68"));
       
-      labelTwo.push("Bangalore");
-      labelTwo.push("Delhi");
-      labelTwo.push("Chennai");
-      labelTwo.push("Mumbai");
-      labelTwo.push("Calcutta");
-      
-      
-      
-      labelThree.push("B1");
-      labelThree.push("D1");
-      labelThree.push("C1");
-      labelThree.push("M1");
-      labelThree.push("C1");
-      this.chartThree = new Chart('chartThree', this.createChartOne("bar", labelThree, data.map(x => x * 10), "#ef524f"));
-      
-      
-      labelFour.push("B2");
-      labelFour.push("D2");
-      labelFour.push("C2");
-      labelFour.push("M2");
-      labelFour.push("C2");
-      this.chartFour = new Chart('chartFour', this.createChartOne("bar", labelFour, data.map(x => x * 15), "#3366ff"));
     });
 
     this.service.getAllData().subscribe(dailydataapi => {
@@ -88,24 +63,32 @@ export class DashboardComponent implements OnInit {
             labelTwo.push(dataparam.city);
             dataTwo.push(dataparam.aqi);
           });
+        } else if(element.param == "so2") {
+          this.dashboard = element.data;
+          this.dashboard.forEach(element => {
+            labels.push(element.city);
+            data.push(element.aqi);
+          });
+        } else if(element.param == "pm10") {
+          this.dashboard3 = element.data;
+          this.dashboard3.forEach(element => {
+            labelThree.push(element.city);
+            dataThree.push(element.aqi);
+          });
+        } else if(element.param == "pm25") {
+          this.dashboard4 = element.data;
+          this.dashboard4.forEach(element => {
+            labelFour.push(element.city);
+            dataFour.push(element.aqi);
+          });
         }
       });
 
+      this.chartOne = new Chart('chartOne', this.createChartOne("bar", labels, data, "#65ba68"));
       this.chartTwo = new Chart('chartTwo', this.createChartOne("bar", labelTwo, dataTwo, "#ffa624"));
+      this.chartThree = new Chart('chartThree', this.createChartOne("bar", labelThree, dataThree, "#ef524f"));
+      this.chartFour = new Chart('chartFour', this.createChartOne("bar", labelFour, dataFour, "#3366ff"));
     });
-    console.log("Labels:", labels);
-    console.log("Data:", data);
-    console.log("Labels2:", labelTwo);
-    console.log("Data2:", dataTwo);
-    //Chart one
-    //Get the data from API and add it to the below arrays
-    //labels: bar names
-    //data: bar values
-
-    //chart two
-    //Get the data from API and add it to the below arrays
-    //labels: bar names
-    //data: bar values
 
     let datasets = new Array();
 
