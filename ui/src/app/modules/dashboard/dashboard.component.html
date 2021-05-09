@@ -11,7 +11,7 @@
               <div style="margin-left: 100px">
                   <mat-form-field style="color:#394454">
                     <input matInput style=" color:#394454;" disabled [matDatepicker]="picker" [formControl]="defaultTodayDate"
-                      (dateInput)="chooseDate('input', $event)" (dateChange)="chooseDate('change', $event)">
+                       (dateChange)="chooseDate('change', $event)">
                     <mat-placeholder class="chooseDate">Choose a date</mat-placeholder>
                     <mat-datepicker-toggle style=" background-color:#999999;" matSuffix [for]="picker"></mat-datepicker-toggle>
                     <mat-datepicker disabled="false" #picker style="color:#999999;"></mat-datepicker>

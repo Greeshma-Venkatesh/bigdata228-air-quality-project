@@ -37,6 +37,17 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.getWeeksRange();
+    
+    let currentWeek = this.currentWeek.value;
+    let currentWeekSplit = currentWeek.split(" - ");
+    let startDate = this.datePipe.transform(new Date(currentWeekSplit[0]), "yyyy-MM-dd");
+    let endDate = this.datePipe.transform(new Date(currentWeekSplit[1]), "yyyy-MM-dd");
+    
+    console.log(startDate);
+    console.log(endDate);
+   
+
     var labels  = new Array;
     var data  = new Array;
     var labelTwo  = new Array;
@@ -45,15 +56,9 @@ export class DashboardComponent implements OnInit {
     var dataThree  = new Array;
     var labelFour  = new Array;
     var dataFour  = new Array;
-    this.getWeeksRange();
     //This will get data from API(dashboard.service.ts) and stores it in dashboard variable, make use of this variable for the API data
-    this.service.getData().subscribe(dataapi => {
-      this.dashboard = dataapi;
-      console.log('FETCHED DATA:', this.dashboard);
-      
-    });
 
-    this.service.getAllData().subscribe(dailydataapi => {
+    this.service.getAllData("2021-03-02").subscribe(dailydataapi => {
       this.dailydata = dailydataapi;
       console.log('FETCHED DAILY DATA:', this.dailydata);
       this.dailydata.forEach(element => {
@@ -91,8 +96,17 @@ export class DashboardComponent implements OnInit {
     });
 
     let datasets = new Array();
-
     let labels12= ["param1", "param2", "param3", "parma4", "param5"];
+    this.service.getWeeklyData("2021-04-01", "2021-04-02").subscribe(weeklydataapi => {
+      let labels12= ["param1", "param2", "param3", "parma4", "param5"];
+      console.log("weekdata");
+      console.log(weeklydataapi);
+
+    });
+
+   
+
+    
     let dataset1: Dataset = new Dataset();
     dataset1.label = "Bangalore";
     dataset1.data = [10, 19, 3, 5, 2];
@@ -426,18 +440,68 @@ export class DashboardComponent implements OnInit {
   }
 
   chooseDate(type: string, event: MatDatepickerInputEvent<Date>) {
-    console.log(event.value);
+
+    // this.service.getAllData("2021-03-02").subscribe(dailydataapi => {
+    // });
+
+
     var labels  = new Array;
     var data  = new Array;
-    this.dashboard.forEach(element => {
-      labels.push(element.city);
-      var tempData = element.aqi * 10000;
-      data.push(tempData);
+    var labelTwo  = new Array;
+    var dataTwo  = new Array;
+    var labelThree  = new Array;
+    var dataThree  = new Array;
+    var labelFour  = new Array;
+    var dataFour  = new Array;
+    this.service.getAllData(this.datePipe.transform(new Date(event.value), "yyyy-MM-dd")).subscribe(dailydataapi => {
+      
+      dailydataapi.forEach(element => {
+        if(element.param == "co") {
+          let dashboard2 = element.data;
+          dashboard2.forEach(dataparam => {
+            labelTwo.push(dataparam.city);
+            dataTwo.push(dataparam.aqi);
+          });
+        } else if(element.param == "so2") {
+          let dashboard = element.data;
+          dashboard.forEach(element => {
+            labels.push(element.city);
+            data.push(element.aqi);
+          });
+        } else if(element.param == "pm10") {
+          let dashboard3 = element.data;
+          dashboard3.forEach(element => {
+            labelThree.push(element.city);
+            dataThree.push(element.aqi);
+          });
+        } else if(element.param == "pm25") {
+          let dashboard4 = element.data;
+          dashboard4.forEach(element => {
+            labelFour.push(element.city);
+            dataFour.push(element.aqi);
+          });
+        }
+      });
+
+      this.updateParamData(this.chartOne, labels, data, 0 );
+      this.updateParamData(this.chartTwo, labelTwo, dataTwo, 0 );
+      this.updateParamData(this.chartThree, labelThree, dataThree, 0 );
+      this.updateParamData(this.chartFour, labelFour, dataFour, 0 );
     });
-    this.updateParamData(this.chartOne, labels, data.map(x => x * 55), 0 );
-    this.updateParamData(this.chartTwo, labels, data.map(x => x * 65), 0 );
-    this.updateParamData(this.chartThree, labels, data.map(x => x * 75), 0 );
-    this.updateParamData(this.chartFour, labels, data.map(x => x * 85), 0 );
+    
+
+    // console.log(this.datePipe.transform(new Date(event.value), "yyyy-MM-dd"));
+    // var labels  = new Array;
+    // var data  = new Array;
+    // this.dashboard.forEach(element => {
+    //   labels.push(element.city);
+    //   var tempData = element.aqi * 10000;
+    //   data.push(tempData);
+    // });
+    // this.updateParamData(this.chartOne, labels, data.map(x => x * 55), 0 );
+    // this.updateParamData(this.chartTwo, labels, data.map(x => x * 65), 0 );
+    // this.updateParamData(this.chartThree, labels, data.map(x => x * 75), 0 );
+    // this.updateParamData(this.chartFour, labels, data.map(x => x * 85), 0 );
   }
 
   getTodaysDate(){

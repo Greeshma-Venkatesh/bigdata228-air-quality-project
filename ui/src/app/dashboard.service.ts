@@ -9,18 +9,26 @@ import { DailyData } from './DailyData';
 })
 export class DashboardService {
   constructor(private http:HttpClient) { }
-  getData() : Observable<Dashboard[]>{
-    const body = { param : "so2", data_date : "2021-03-02", pos : "bottom"};
-    return this.http.post<Dashboard[]>("http://localhost:5000/openaq/topCitiesByParam", body);
-}
 
-getAllData() : Observable<DailyData[]>{
+getAllData(date) : Observable<DailyData[]>{
+  console.log(date);
   const body = {
     param : ["so2", "co", "pm10", "pm25"],
-    data_date : "2021-03-02",
+    data_date : date,
     pos : "bottom"
 };
   return this.http.post<DailyData[]>("http://localhost:5000/openaq/topCitiesAllParamByDate", body);
+}
+
+getWeeklyData(startDate, endDate) : Observable<DailyData[]>{
+  
+  const body = {
+    param: ["so2", "co", "pm10", "pm25"],
+    start_date:startDate,
+    end_date:endDate,
+    pos: "bottom"
+};
+  return this.http.post<DailyData[]>("http://localhost:5000/openaq/topCitiesAllParamBetweenDates", body);
 }
 
 }
