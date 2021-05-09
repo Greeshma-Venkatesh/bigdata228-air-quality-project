@@ -42,6 +42,13 @@ def get_top_cities_all_param_between_dates():
     return jsonify(list_data)
 
 
+@app.route('/openaq/topCitiesDataUiChartWeekly', methods=['GET', 'POST'])
+def get_top_cities_data_ui_chart_weekly():
+    data = request.get_json()
+    dict_data = openaq_service.get_top_cities_data_ui_chart_weekly(data)
+    return jsonify(dict_data)
+
+
 @app.route('/openaq/ingestProcessSaveData', methods=['POST'])
 def ingest_process_save_data():
     data = request.get_json()

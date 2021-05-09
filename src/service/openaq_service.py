@@ -109,6 +109,19 @@ def get_dictonary_avg_aqi_between_dates_all_param(list_param, list_dates):
                         continue
     return dict_aqi_data_by_param_by_city
 
+def get_top_cities_data_ui_chart_weekly(data):
+    list_city_param_aqi = []
+    list_weekly_data = get_top_cities_all_param_between_dates(data)
+    dict_by_city = {}
+    for item in list_weekly_data:
+        for dat in item["data"]:
+            if dat["city"] in dict_by_city.keys():
+                dict_by_city[dat["city"]][item["param"]] = dat["aqi"]
+            else:
+               dict_by_city[dat["city"]] = dict()
+               dict_by_city[dat["city"]][item["param"]] = dat["aqi"]  
+    return dict_by_city
+
 def create_insights_by_parameter(data):
     str_date = data["data_date"]
     list_param = data["param"]
