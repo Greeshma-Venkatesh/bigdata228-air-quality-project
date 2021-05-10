@@ -325,7 +325,7 @@ export class DashboardComponent implements OnInit {
       labels: labels,
     
       datasets: [{
-        label: 'Steps',
+        label: 'Aqi',
         data: data,
         //backgroundColor:"rgb(251, 171, 24, 0.4)",
         backgroundColor:color,
@@ -385,7 +385,7 @@ export class DashboardComponent implements OnInit {
       labels: labels2,
     
       datasets: [{
-        label: 'Steps',
+        label: 'Aqi',
         data: data2,
         backgroundColor:"rgb(251, 171, 24, 0.4)",
         borderWidth: 0.5,
