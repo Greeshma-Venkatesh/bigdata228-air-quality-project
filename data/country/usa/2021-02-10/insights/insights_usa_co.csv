@@ -1,0 +1,99 @@
+city,aqi,category,color_code
+Anchorage,1.6528925619834698,Good,green
+Fairbanks,4.298418972332016,Good,green
+Phoenix-Mesa-Scottsdale,5.998914878225213,Good,green
+San Francisco-Oakland-Fremont,4.007617042358189,Good,green
+ALAMEDA,4.607438016528927,Good,green
+BUTTE,3.1717914438502683,Good,green
+Sacramento--Arden-Arcade--Roseville,2.973915289256199,Good,green
+Fresno,3.965311004784689,Good,green
+FRESNO,3.624401913875598,Good,green
+El Centro,3.1449631449631457,Good,green
+Bishop,1.1505681818181823,Good,green
+Bakersfield,4.478609625668448,Good,green
+Los Angeles-Long Beach-Santa Ana,3.3588751673858113,Good,green
+LOS ANGELES,3.1905594405594404,Good,green
+Salinas,3.176652892561983,Good,green
+Napa,4.586038961038961,Good,green
+ORANGE,7.424242424242423,Good,green
+Riverside-San Bernardino-Ontario,2.7319774174869744,Good,green
+San Jose-Sunnyvale-Santa Clara,5.832309582309582,Good,green
+SAN BERNARDINO,4.363107822410149,Good,green
+Stockton,4.237012987012987,Good,green
+Vallejo-Fairfield,2.5149521531100483,Good,green
+Santa Rosa-Petaluma,3.245320855614973,Good,green
+Modesto,2.6566339066339064,Good,green
+Denver-Aurora,3.640422077922078,Good,green
+Colorado Springs,4.068914956011731,Good,green
+Durango,2.7752525252525273,Good,green
+Fort Collins-Loveland,2.373376623376624,Good,green
+Greeley,1.9610389610389607,Good,green
+Hartford-West Hartford-East Hartford,3.295454545454546,Good,green
+Torrington,2.047924901185771,Good,green
+New Haven-Milford,3.3057851239669427,Good,green
+Philadelphia-Camden-Wilmington,2.596375143843498,Good,green
+Washington-Arlington-Alexandria,3.4807692307692277,Good,green
+Salt Lake City,1.6639610389610384,Good,green
+Jacksonville,7.5657894736842115,Good,green
+Miami-Fort Lauderdale-Miami Beach,4.237012987012989,Good,green
+HILLSBOROUGH,2.563747228381374,Good,green
+Orlando-Kissimmee,4.545454545454548,Good,green
+PINELLAS,2.093301435406699,Good,green
+Atlanta-Sandy Springs-Marietta,9.734848484848483,Good,green
+Columbus,2.320075757575757,Good,green
+Honolulu,3.8501794258373234,Good,green
+Boise City-Nampa,3.8006422924901178,Good,green
+Champaign-Urbana,2.2011784511784507,Good,green
+CLARK,5.763339920948619,Good,green
+St. Louis,2.888755980861245,Good,green
+Davenport-Moline-Rock Island,2.2826086956521734,Good,green
+Indianapolis,4.274384469696969,Good,green
+Louisville,2.658617424242424,Good,green
+Evansville,3.086609336609336,Good,green
+Kansas City,2.428977272727274,Good,green
+AROOSTOOK,2.8290719696969706,Good,green
+Baltimore-Towson,2.618577075098812,Good,green
+GARRETT,1.8607954545454548,Good,green
+HOWARD,3.0242768595041327,Good,green
+Providence-New Bedford-Fall River,5.195158102766797,Good,green
+Boston-Cambridge-Quincy,3.5139860139860137,Good,green
+SUFFOLK,0.9780844155844157,Good,green
+Worcester,4.231974921630095,Good,green
+Grand Rapids-Wyoming,5.186688311688311,Good,green
+Detroit-Warren-Livonia,2.577404479578392,Good,green
+WAYNE,7.139328063241107,Good,green
+Minneapolis-St. Paul-Bloomington,3.261363636363634,Good,green
+DAKOTA,1.5151515151515154,Good,green
+Jackson,3.306818181818183,Good,green
+GALLATIN,2.5675675675675675,Good,green
+Omaha-Council Bluffs,3.4564393939393923,Good,green
+Las Vegas-Paradise,4.92588932806324,Good,green
+Reno-Sparks,2.8705018939393936,Good,green
+Manchester-Nashua,1.9649621212121227,Good,green
+ROCKINGHAM,2.8507905138339913,Good,green
+New York-Northern New Jersey-Long Island,5.022945804195796,Good,green
+UNION,7.323232323232324,Good,green
+Albuquerque,2.6065340909090935,Good,green
+Durham,3.688016528925618,Good,green
+Raleigh-Cary,4.371783876500853,Good,green
+Cincinnati-Middletown,3.761837121212121,Good,green
+Cleveland-Elyria-Mentor,2.944664031620555,Good,green
+Dayton,2.117094861660079,Good,green
+Oklahoma City,3.8707386363636314,Good,green
+Tulsa,1.9625946969696968,Good,green
+Portland-Vancouver-Beaverton,5.214251893939394,Good,green
+PHILADELPHIA,4.673407301360059,Good,green
+Columbia,3.243577075098815,Good,green
+Knoxville,1.7344497607655502,Good,green
+Provo-Orem,2.721291866028707,Good,green
+Burlington-South Burlington,2.427221654749747,Good,green
+Rutland,3.4584980237154137,Good,green
+Richmond,3.6692583732057407,Good,green
+Roanoke,5.293062200956938,Good,green
+Virginia Beach-Norfolk-Newport News,3.5000000000000036,Good,green
+Port Angeles,1.5141277641277642,Good,green
+Seattle-Tacoma-Bellevue,3.367477592829706,Good,green
+DODGE,2.5903263403263397,Good,green
+MILWAUKEE,3.5433884297520657,Good,green
+CONVERSE,1.3863636363636362,Good,green
+Cheyenne,1.349431818181818,Good,green
