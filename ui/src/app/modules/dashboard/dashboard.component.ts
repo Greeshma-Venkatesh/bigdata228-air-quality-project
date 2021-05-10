@@ -22,6 +22,7 @@ export class DashboardComponent implements OnInit {
   dashboard3:Dashboard[];
   dashboard4:Dashboard[];
   dailydata:DailyData[];
+  weeklydata:DailyData[];
   chartOne;
   chartTwo;
   chartThree;
@@ -97,38 +98,38 @@ export class DashboardComponent implements OnInit {
 
     let datasets = new Array();
     let labels12= ["param1", "param2", "param3", "parma4", "param5"];
-    this.service.getWeeklyData("2021-04-01", "2021-04-02").subscribe(weeklydataapi => {
+    this.service.getWeeklyChartData("2021-04-01", "2021-04-02").subscribe(weeklydataapi => {
       let labels12= ["param1", "param2", "param3", "parma4", "param5"];
       console.log("weekdata");
       console.log(weeklydataapi);
-
+      this.weeklydata = weeklydataapi;
     });
 
    
 
     
     let dataset1: Dataset = new Dataset();
-    dataset1.label = "Bangalore";
+    dataset1.label = "Chicago";
     dataset1.data = [10, 19, 3, 5, 2];
     dataset1.backgroundColor = "#90c388";
 
     let dataset2: Dataset = new Dataset();
-    dataset2.label = "Delhi";
+    dataset2.label = "New York";
     dataset2.data = [20, 29, 23, 25, 22];
     dataset2.backgroundColor = "#b3c6ff";
 
     let dataset3: Dataset = new Dataset();
-    dataset3.label = "Mumbai";
+    dataset3.label = "Las Vegas";
     dataset3.data = [30, 39, 33, 35, 32];
     dataset3.backgroundColor = "#ffb3d9";
 
     let dataset4: Dataset = new Dataset();
-    dataset4.label = "Chennai";
+    dataset4.label = "San Francisco";
     dataset4.data = [40, 49, 43, 45, 42];
     dataset4.backgroundColor = "#ffa64d";
 
     let dataset5: Dataset = new Dataset();
-    dataset5.label = "Calcutta";
+    dataset5.label = "San Diego";
     dataset5.data = [40, 49, 43, 45, 42];
     dataset5.backgroundColor = "#1ab2ff";
 
@@ -139,37 +140,6 @@ export class DashboardComponent implements OnInit {
     datasets.push(dataset5);
 
     this.chartWeek = new Chart('chartWeek', this.createWeekCharts("bar", labels12,datasets));
-
-    var labels2  = new Array;
-    var data2  = new Array;
-    labels2.push("a");
-    labels2.push("b");
-    labels2.push("c");
-    labels2.push("d");
-    labels2.push("e");
-    labels2.push("f");
-    labels2.push("g");
-    labels2.push("h");
-    labels2.push("i");
-    labels2.push("j");
-    labels2.push("k");
-    labels2.push("l");
-
-    data2.push(10.7);
-    data2.push(20);
-    data2.push(20.3);
-    data2.push(20);
-    data2.push(20);
-    data2.push(20.5);
-    data2.push(20);
-    data2.push(20);
-    data2.push(20.8);
-    data2.push(20);
-    data2.push(20);
-    data2.push(20.800);
-
-    //this.chartWeek = new Chart('chartWeek', this.createChartTwo("bar", labels2,data2));
-    
   }
 
   createWeekCharts(type, labels, datasets ){
