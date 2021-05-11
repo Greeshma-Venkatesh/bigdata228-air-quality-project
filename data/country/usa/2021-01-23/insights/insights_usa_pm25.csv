@@ -1,0 +1,476 @@
+city,aqi,category,color_code
+Birmingham-Hoover,28.901960784313758,Good,green
+Mobile,34.689922480620154,Good,green
+Montgomery,5.542635658914721,Good,green
+Decatur,25.334302325581394,Good,green
+SUMTER,29.99999999999998,Good,green
+Anchorage,29.90196078431373,Good,green
+Fairbanks,79.13214956941289,Moderate,yellow
+JUNEAU,22.467320261437912,Good,green
+MATANUSKA-SUSITNA,1.5522875816993464,Good,green
+LA PAZ,12.826797385620917,Good,green
+Phoenix-Mesa-Scottsdale,18.204409566517203,Good,green
+PIMA,28.758169934640527,Good,green
+Tucson,26.405228758169937,Good,green
+PINAL,6.61764705882353,Good,green
+Nogales,26.797385620915037,Good,green
+Yuma,24.34640522875817,Good,green
+San Francisco-Oakland-Fremont,34.62606837606838,Good,green
+ALAMEDA,41.452991452991455,Good,green
+Chico,23.903508771929825,Good,green
+BUTTE,27.884615384615387,Good,green
+CALAVERAS,22.542735042735046,Good,green
+COLUSA,36.97916666666667,Good,green
+Sacramento--Arden-Arcade--Roseville,27.958424110384918,Good,green
+Fresno,43.93939393939394,Good,green
+FRESNO,24.16666666666667,Good,green
+GLENN,35.042735042735046,Good,green
+El Centro,19.256756756756758,Good,green
+Bishop,35.55431547619046,Good,green
+Bakersfield,20.275900900900893,Good,green
+KERN,1.8518518518518519,Good,green
+Hanford-Corcoran,27.651515151515156,Good,green
+Los Angeles-Long Beach-Santa Ana,23.221405228758165,Good,green
+Madera,32.38636363636364,Good,green
+MARIPOSA,28.952991452991455,Good,green
+MENDOCINO,42.431972789115655,Good,green
+Ukiah,43.30065359477125,Good,green
+Merced,21.401515151515156,Good,green
+MONO,17.475490196078436,Good,green
+Salinas,14.13793103448276,Good,green
+MONTEREY,1.2254901960784315,Good,green
+Napa,34.82905982905984,Good,green
+Truckee-Grass Valley,20.083333333333336,Good,green
+PLACER,5.3819444444444455,Good,green
+PLUMAS,65.57081545064378,Moderate,yellow
+RIVERSIDE,14.147286821705427,Good,green
+Riverside-San Bernardino-Ontario,22.341356673960618,Good,green
+San Jose-Sunnyvale-Santa Clara,29.563492063492063,Good,green
+San Diego-Carlsbad-San Marcos,16.70261437908497,Good,green
+Stockton,37.217514124293785,Good,green
+San Luis Obispo-Paso Robles,8.568376068376068,Good,green
+SAN LUIS OBISPO,19.679487179487182,Good,green
+Santa Barbara-Santa Maria,19.385964912280706,Good,green
+Santa Cruz-Watsonville,24.690684133915575,Good,green
+Redding,40.49019607843138,Good,green
+SISKIYOU,37.41830065359478,Good,green
+Vallejo-Fairfield,38.457854406130274,Good,green
+Santa Rosa-Petaluma,35.8974358974359,Good,green
+Modesto,42.144808743169406,Good,green
+Yuba City,29.273504273504276,Good,green
+Red Bluff,45.70512820512821,Good,green
+TRINITY,58.954304468568544,Moderate,yellow
+Visalia-Porterville,21.595528455284555,Good,green
+TULARE,33.901515151515156,Good,green
+Oxnard-Thousand Oaks-Ventura,12.745098039215687,Good,green
+Denver-Aurora,54.93887020067279,Moderate,yellow
+Boulder,36.741452991452974,Good,green
+DENVER,56.47320347749534,Moderate,yellow
+Colorado Springs,31.497747747747756,Good,green
+GARFIELD,22.03125,Good,green
+LARIMER,39.75806451612904,Good,green
+Grand Junction,21.506410256410266,Good,green
+PITKIN,15.769230769230766,Good,green
+RIO BLANCO,27.32558139534884,Good,green
+Greeley,37.52136752136752,Good,green
+Bridgeport-Stamford-Norwalk,12.769607843137253,Good,green
+Hartford-West Hartford-East Hartford,10.861928104575167,Good,green
+Torrington,11.037581699346399,Good,green
+New Haven-Milford,15.138888888888902,Good,green
+Norwich-New London,13.709150326797383,Good,green
+Dover,20.6454248366013,Good,green
+Philadelphia-Camden-Wilmington,21.534940209267578,Good,green
+NEW CASTLE,25.294117647058837,Good,green
+Seaford,27.07516339869282,Good,green
+Washington-Arlington-Alexandria,16.065592903828193,Good,green
+WASHINGTON,32.071371610845254,Good,green
+Salt Lake City,6.114341085271319,Good,green
+Jacksonville,26.96323529411765,Good,green
+Panama City-Lynn Haven,23.292682926829276,Good,green
+Palm Bay-Melbourne-Titusville,41.162790697674424,Good,green
+Miami-Fort Lauderdale-Miami Beach,39.5942265795207,Good,green
+Homosassa Springs,25.470085470085476,Good,green
+Naples-Marco Island,33.91472868217055,Good,green
+Lake City,23.64341085271318,Good,green
+DUVAL,25.048449612403108,Good,green
+Pensacola-Ferry Pass-Brent,19.001937984496127,Good,green
+HAMILTON,19.16666666666667,Good,green
+HILLSBOROUGH,31.45390070921985,Good,green
+Tampa-St. Petersburg-Clearwater,26.751126126126117,Good,green
+HOLMES,24.689922480620158,Good,green
+Orlando-Kissimmee,38.97286821705425,Good,green
+Cape Coral-Fort Myers,19.903100775193803,Good,green
+Tallahassee,19.0994623655914,Good,green
+MARTIN,34.00193798449613,Good,green
+PALM BEACH,28.01356589147286,Good,green
+Sarasota-Bradenton-Venice,20.436046511627914,Good,green
+Deltona-Daytona Beach-Ormond Beach,33.59496124031008,Good,green
+Macon,25.299999999999997,Good,green
+Savannah,29.547101449275356,Good,green
+Athens-Clarke County,33.475000000000016,Good,green
+Atlanta-Sandy Springs-Marietta,24.75886524822697,Good,green
+Albany,33.0921052631579,Good,green
+Rome,17.89999999999999,Good,green
+Gainesville,25.937500000000004,Good,green
+Valdosta,21.666666666666668,Good,green
+Columbus,15.734265734265739,Good,green
+Augusta-Richmond County,30.935374149659886,Good,green
+Hilo,18.07992202729045,Good,green
+HAWAII,10.998062015503876,Good,green
+Honolulu,13.10562015503876,Good,green
+Kahului-Wailuku,15.277777777777779,Good,green
+MAUI,21.027131782945737,Good,green
+Boise City-Nampa,32.77491408934708,Good,green
+ADA,19.035947712418302,Good,green
+Pocatello,33.24829931972789,Good,green
+BENEWAH,65.27091333483925,Moderate,yellow
+BLAINE,13.23529411764706,Good,green
+BOISE,31.290849673202615,Good,green
+BONNER,37.5,Good,green
+Idaho Falls,20.13888888888889,Good,green
+BOUNDARY,27.33660130718954,Good,green
+IDAHO,25.73529411764706,Good,green
+Moscow,26.797385620915037,Good,green
+LEMHI,60.15013043844147,Moderate,yellow
+Lewiston,27.85947712418301,Good,green
+SHOSHONE,71.11874105865523,Moderate,yellow
+TWIN FALLS,29.166666666666668,Good,green
+VALLEY,53.15021459227468,Moderate,yellow
+CHAMPAIGN,32.945736434108525,Good,green
+CLARK,39.103905160390504,Good,green
+Chicago-Naperville-Joliet,34.42613636363634,Good,green
+COOK,20.009057971014496,Good,green
+Mount Vernon,27.034883720930235,Good,green
+JERSEY,21.143410852713167,Good,green
+Bloomington-Normal,35.04844961240311,Good,green
+St. Louis,21.265514184397173,Good,green
+Peoria,21.133720930232563,Good,green
+RANDOLPH,22.335858585858595,Good,green
+Davenport-Moline-Rock Island,28.142730496453908,Good,green
+SANGAMON,25.939922480620158,Good,green
+WILL,40.77519379844962,Good,green
+Indianapolis,34.123093681917204,Good,green
+BROWN,24.08143939393939,Good,green
+Louisville,28.33333333333335,Good,green
+Anderson,32.85130718954249,Good,green
+PERRY,41.34803921568627,Good,green
+Evansville,24.877450980392155,Good,green
+South Bend-Mishawaka,39.28921568627451,Good,green
+Waterloo-Cedar Falls,45.58823529411765,Good,green
+Clinton,52.19582596987294,Moderate,yellow
+Iowa City,42.998366013071916,Good,green
+Cedar Rapids,46.32653061224489,Good,green
+MONTGOMERY,11.033950617283953,Good,green
+MUSCATINE,28.594771241830067,Good,green
+PALO ALTO,18.28703703703704,Good,green
+Des Moines,13.31699346405229,Good,green
+VAN BUREN,21.12403100775194,Good,green
+Kansas City,16.465818363273463,Good,green
+NEOSHO,26.35620915032679,Good,green
+Wichita,32.359375,Good,green
+Topeka,21.209150326797385,Good,green
+TREGO,46.06209150326799,Good,green
+Huntington-Ashland,29.885620915032682,Good,green
+Owensboro,22.670454545454543,Good,green
+Lexington-Fayette,30.766666666666662,Good,green
+JEFFERSON,27.88194444444442,Good,green
+Paducah,18.421717171717177,Good,green
+PIKE,27.129629629629623,Good,green
+Clarksville,22.993827160493826,Good,green
+Baton Rouge,13.839869281045756,Good,green
+Lake Charles,26.16830065359478,Good,green
+New Orleans-Metairie-Kenner,6.952777777777778,Good,green
+Houma-Bayou Cane-Thibodaux,19.321895424836605,Good,green
+Lewiston-Auburn,32.926829268292686,Good,green
+AROOSTOOK,22.764227642276413,Good,green
+Portland-South Portland-Biddeford,29.84496124031008,Good,green
+HANCOCK,10.329457364341083,Good,green
+PENOBSCOT,23.726851851851855,Good,green
+Baltimore-Towson,17.769607843137255,Good,green
+DORCHESTER,22.957516339869283,Good,green
+GARRETT,19.28104575163399,Good,green
+HOWARD,15.441176470588237,Good,green
+KENT,17.3202614379085,Good,green
+Hagerstown-Martinsburg,24.34640522875817,Good,green
+BERKSHIRE,14.295977011494253,Good,green
+Providence-New Bedford-Fall River,13.967136150234742,Good,green
+Boston-Cambridge-Quincy,17.32291666666667,Good,green
+FRANKLIN,39.21875,Good,green
+Springfield,16.551635991820035,Good,green
+HAMPDEN,23.85057471264368,Good,green
+PLYMOUTH,23.13218390804598,Good,green
+SUFFOLK,20.977011494252874,Good,green
+Worcester,32.44047619047619,Good,green
+Allegan,14.477124183006541,Good,green
+Bay City,5.408496732026144,Good,green
+Flint,10.620915032679738,Good,green
+Lansing-East Lansing,16.01307189542484,Good,green
+Kalamazoo-Portage,20.74346405228759,Good,green
+Adrian,14.232026143790854,Good,green
+Cadillac,23.300653594771237,Good,green
+Detroit-Warren-Livonia,14.263344226579534,Good,green
+SCHOOLCRAFT,13.537581699346404,Good,green
+Ann Arbor,15.231481481481488,Good,green
+WAYNE,20.040849673202626,Good,green
+Minneapolis-St. Paul-Bloomington,31.04575163398693,Good,green
+BECKER,44.689542483660134,Good,green
+BELTRAMI,40.60457516339869,Good,green
+CARLTON,6.781045751633988,Good,green
+CASS,39.869281045751634,Good,green
+Brainerd,15.986394557823129,Good,green
+DAKOTA,35.7843137254902,Good,green
+LAKE,13.436468646864693,Good,green
+Marshall,19.154411764705884,Good,green
+Rochester,20.523504273504276,Good,green
+Duluth,23.77450980392157,Good,green
+ST. LOUIS,23.29931972789116,Good,green
+BOLIVAR,16.3095238095238,Good,green
+Memphis,17.35050890585242,Good,green
+Hattiesburg,30.23305084745763,Good,green
+Gulfport-Biloxi,21.989583333333357,Good,green
+Jackson,28.770396270396265,Good,green
+Pascagoula,22.24673202614379,Good,green
+St. Joseph,15.344827586206899,Good,green
+CEDAR,23.505747126436788,Good,green
+IRON,7.49031007751938,Good,green
+ST. LOUIS (CITY),23.692528735632173,Good,green
+CASCADE,20.649224806201552,Good,green
+FERGUS,16.463178294573645,Good,green
+FLATHEAD,25.28100775193798,Good,green
+GALLATIN,36.443798449612395,Good,green
+LEWIS AND CLARK,3.047619047619048,Good,green
+Helena,45.03875968992249,Good,green
+LINCOLN,62.933326679309324,Moderate,yellow
+MISSOULA,42.88759689922483,Good,green
+PHILLIPS,19.815891472868216,Good,green
+POWDER RIVER,22.50968992248063,Good,green
+RAVALLI,27.257751937984487,Good,green
+RICHLAND,12.81007751937985,Good,green
+ROSEBUD,8.32364341085272,Good,green
+SANDERS,40.29069767441862,Good,green
+SILVER BOW,7.364341085271324,Good,green
+YELLOWSTONE,40.310077519379846,Good,green
+Omaha-Council Bluffs,19.28104575163399,Good,green
+Lincoln,24.34640522875817,Good,green
+Las Vegas-Paradise,14.675018155410317,Good,green
+DOUGLAS,25.678294573643413,Good,green
+Reno-Sparks,16.872937293729375,Good,green
+CARSON CITY,20.251937984496124,Good,green
+Laconia,14.215686274509805,Good,green
+Keene,24.754901960784316,Good,green
+Lebanon,18.504901960784316,Good,green
+Manchester-Nashua,11.250000000000002,Good,green
+ROCKINGHAM,16.993464052287575,Good,green
+Atlantic City,25.846774193548384,Good,green
+New York-Northern New Jersey-Long Island,17.804341226472367,Good,green
+Vineland-Millville-Bridgeton,4.5277777777777795,Good,green
+Trenton-Ewing,16.081081081081077,Good,green
+UNION,21.781045751633997,Good,green
+WARREN,9.425675675675675,Good,green
+Albuquerque,22.83006535947713,Good,green
+Las Cruces,20.408163265306126,Good,green
+DONA ANA,19.0,Good,green
+Hobbs,27.833333333333336,Good,green
+Santa Fe,20.083333333333336,Good,green
+Taos,30.16666666666667,Good,green
+Albany-Schenectady-Troy,12.22701149425287,Good,green
+Poughkeepsie-Newburgh-Middletown,23.591954022988507,Good,green
+Buffalo-Niagara Falls,25.948275862068968,Good,green
+ERIE,27.234195402298855,Good,green
+ESSEX,12.399425287356319,Good,green
+KINGS,31.135057471264375,Good,green
+Utica-Rome,22.58620689655173,Good,green
+ROCKLAND,21.954022988505745,Good,green
+Asheville,7.7948717948717965,Good,green
+Hickory-Lenoir-Morganton,19.220430107526884,Good,green
+Fayetteville,31.85897435897436,Good,green
+Thomasville-Lexington,22.115384615384617,Good,green
+Durham,22.62820512820513,Good,green
+Rocky Mount,10.576923076923077,Good,green
+Winston-Salem,18.14102564102563,Good,green
+Greensboro-High Point,14.583333333333334,Good,green
+Raleigh-Cary,22.32905982905983,Good,green
+Charlotte-Gastonia-Concord,37.550813008130085,Good,green
+MITCHELL,11.730769230769232,Good,green
+Wilmington,29.615384615384617,Good,green
+NORTHAMPTON,14.67948717948718,Good,green
+Salisbury,11.08974358974359,Good,green
+SWAIN,52.95741168702542,Moderate,yellow
+Dickinson,7.037037037037038,Good,green
+Lima,17.197712418300643,Good,green
+Cincinnati-Middletown,23.23658410732715,Good,green
+Cleveland-Elyria-Mentor,12.24128540305011,Good,green
+Weirton-Steubenville,11.695736434108525,Good,green
+Portsmouth,31.830065359477125,Good,green
+Toledo,16.560457516339874,Good,green
+Youngstown-Warren-Boardman,16.317365269461078,Good,green
+Dayton,28.435457516339866,Good,green
+Canton-Massillon,19.836601307189543,Good,green
+Akron,9.493464052287583,Good,green
+Oklahoma City,35.37037037037039,Good,green
+Ardmore,27.957516339869287,Good,green
+Lawton,34.272875816993455,Good,green
+Tulsa,36.26633986928105,Good,green
+DEWEY,33.73366013071897,Good,green
+Ponca City,39.82843137254901,Good,green
+McAlester,32.965686274509814,Good,green
+Fort Smith,13.807189542483663,Good,green
+TULSA,18.129084967320257,Good,green
+COOS,43.54600694444442,Good,green
+JOSEPHINE,29.47712418300654,Good,green
+Eugene-Springfield,55.718096069445444,Moderate,yellow
+LINN,61.53357737944964,Moderate,yellow
+Portland-Vancouver-Beaverton,40.87697423108893,Good,green
+Gettysburg,21.115384615384613,Good,green
+Pittsburgh,20.821732405259095,Good,green
+Reading,12.688172043010756,Good,green
+Altoona,15.35256410256411,Good,green
+BRADFORD,8.673076923076925,Good,green
+Johnstown,20.25000000000001,Good,green
+State College,12.583333333333336,Good,green
+Harrisburg-Carlisle,17.335958005249346,Good,green
+GREENE,22.423076923076923,Good,green
+Scranton--Wilkes-Barre,11.737179487179477,Good,green
+Lancaster,20.397435897435884,Good,green
+Allentown-Bethlehem-Easton,10.10256410256411,Good,green
+PHILADELPHIA,18.460784313725462,Good,green
+York-Hanover,20.923076923076923,Good,green
+Charleston-North Charleston,26.25000000000002,Good,green
+CHESTERFIELD,23.585069444444446,Good,green
+Florence,38.87962962962967,Good,green
+Greenville,37.76422764227643,Good,green
+Columbia,40.98958333333332,Good,green
+Spartanburg,31.006944444444446,Good,green
+BROOKINGS,18.504901960784316,Good,green
+CUSTER,16.625816993464053,Good,green
+HUGHES,16.127450980392158,Good,green
+JACKSON,29.45190156599554,Good,green
+Rapid City,27.22222222222223,Good,green
+MINNEHAHA,10.383986928104576,Good,green
+Knoxville,15.292874396135272,Good,green
+Dyersburg,24.074074074074076,Good,green
+Chattanooga,19.697712418300654,Good,green
+Athens,6.790123456790123,Good,green
+Nashville-Davidson--Murfreesboro,16.666666666666668,Good,green
+Cookeville,19.598765432098766,Good,green
+Harriman,15.865384615384615,Good,green
+Kingsport-Bristol-Bristol,10.185185185185187,Good,green
+San Antonio,47.71241830065359,Good,green
+Houston-Sugar Land-Baytown,19.886111111111106,Good,green
+Dallas-Fort Worth-Arlington,29.18981481481482,Good,green
+El Paso,47.361111111111114,Good,green
+Longview,54.18874139135642,Moderate,yellow
+Waco,27.508169934640524,Good,green
+Corsicana,18.088235294117652,Good,green
+Corpus Christi,28.47222222222222,Good,green
+POLK,33.95833333333333,Good,green
+DUCHESNE,82.83361612935423,Moderate,yellow
+TOOELE,61.510130751572014,Moderate,yellow
+UINTAH,64.33206906876934,Moderate,yellow
+Provo-Orem,8.270348837209308,Good,green
+Bennington,11.454248366013077,Good,green
+Burlington-South Burlington,13.218954248366007,Good,green
+Rutland,15.236928104575155,Good,green
+Charlottesville,22.073643410852714,Good,green
+Richmond,28.75968992248062,Good,green
+Winchester,23.323643410852718,Good,green
+MADISON,15.365853658536576,Good,green
+Roanoke,18.75,Good,green
+Virginia Beach-Norfolk-Newport News,25.01937984496124,Good,green
+ADAMS,16.483739837398375,Good,green
+ASOTIN,28.236434108527124,Good,green
+Kennewick-Richland-Pasco,21.88541666666667,Good,green
+CHELAN,20.624999999999986,Good,green
+Wenatchee,39.14728682170542,Good,green
+Port Angeles,18.916666666666668,Good,green
+CLALLAM,53.807266194230955,Moderate,yellow
+COLUMBIA,37.732558139534895,Good,green
+Moses Lake,26.422764227642272,Good,green
+Aberdeen,22.984848484848495,Good,green
+ISLAND,15.620155038759684,Good,green
+Seattle-Tacoma-Bellevue,59.660425728029495,Moderate,yellow
+KING,23.217054263565903,Good,green
+KITSAP,39.05038759689923,Good,green
+Ellensburg,51.32767741291546,Moderate,yellow
+LEWIS,41.850775193798455,Good,green
+Shelton,45.13888888888888,Good,green
+OKANOGAN,37.1075581395349,Good,green
+Mount Vernon-Anacortes,46.86046511627909,Good,green
+SKAGIT,16.850775193798455,Good,green
+Spokane,61.50375536480688,Moderate,yellow
+SPOKANE,30.62015503875969,Good,green
+STEVENS,34.82638888888891,Good,green
+Olympia,46.96705426356589,Good,green
+Walla Walla,33.40116279069768,Good,green
+Bellingham,20.38759689922481,Good,green
+WHATCOM,80.378480886316,Moderate,yellow
+Pullman,24.09666666666668,Good,green
+Yakima,57.17207306118375,Moderate,yellow
+YAKIMA,15.174418604651159,Good,green
+KANAWHA,25.431034482758623,Good,green
+ASHLAND,20.88235294117647,Good,green
+Green Bay,26.372549019607856,Good,green
+Madison,25.114379084967332,Good,green
+DODGE,34.411764705882355,Good,green
+EAU CLAIRE,35.08169934640521,Good,green
+FOREST,17.344771241830063,Good,green
+GRANT,40.85669781931466,Good,green
+La Crosse,23.9950980392157,Good,green
+Milwaukee-Waukesha-West Allis,25.69859038142621,Good,green
+MILWAUKEE,33.54575163398693,Good,green
+Appleton,26.955782312925155,Good,green
+Baraboo,19.166666666666668,Good,green
+TAYLOR,25.359477124183012,Good,green
+VILAS,16.519607843137262,Good,green
+Riverton,8.823529411764707,Good,green
+Cheyenne,13.218390804597703,Good,green
+Rock Springs,6.752873563218391,Good,green
+TETON,0.4844961240310078,Good,green
+DELTA,11.16830065359477,Good,green
+KOOTENAI,51.22782546494993,Moderate,yellow
+Rockford,38.01356589147287,Good,green
+SOMERSET,19.87745098039215,Good,green
+WORCESTER,24.13398692810458,Good,green
+MIDDLESEX,18.10344827586207,Good,green
+NORFOLK,22.413793103448278,Good,green
+Grand Island,24.50980392156863,Good,green
+Scottsbluff,17.075163398692812,Good,green
+DUNN,28.00387596899225,Good,green
+SUSQUEHANNA,11.08333333333333,Good,green
+CHARLESTON,35.303819444444436,Good,green
+Lawrenceburg,15.277777777777779,Good,green
+PACIFIC,32.38372093023254,Good,green
+MT1,17.276422764227643,Good,green
+N/A,21.212406015037597,Good,green
+BAKER,15.900000000000006,Good,green
+Corvallis,28.899999999999988,Good,green
+Prineville,31.141666666666673,Good,green
+DESCHUTES,23.438888888888904,Good,green
+Bend,24.358333333333356,Good,green
+Roseburg,41.44999999999999,Good,green
+HARNEY,18.475,Good,green
+Medford,32.11666666666667,Good,green
+Grants Pass,28.41666666666666,Good,green
+Klamath Falls,19.62500000000001,Good,green
+Albany-Lebanon,52.80437768240345,Moderate,yellow
+Salem,43.825000000000024,Good,green
+MARION,43.808333333333344,Good,green
+Pendleton-Hermiston,35.06250000000001,Good,green
+La Grande,18.483333333333327,Good,green
+WALLOWA,11.354166666666668,Good,green
+City of The Dalles,41.15,Good,green
+CLACKAMAS,68.08060085836908,Moderate,yellow
+HOOD RIVER,53.73390557939914,Moderate,yellow
+MALHEUR,41.175,Good,green
+MULTNOMAH,50.26666666666666,Good,green
+TILLAMOOK,36.94166666666667,Good,green
+OXFORD,13.425925925925927,Good,green
+Little Rock-North Little Rock,26.73245614035087,Good,green
+Fayetteville-Springdale-Rogers,19.669540229885065,Good,green
+LYCOMING,8.484195402298852,Good,green
+Warner Robins,27.731481481481477,Good,green
+Elizabethtown,25.312499999999996,Good,green
+WYOMING,9.2,Good,green
+TIOGA,5.50387596899225,Good,green
+Grand Rapids-Wyoming,20.902777777777782,Good,green
+Ocala,15.833333333333334,Good,green
