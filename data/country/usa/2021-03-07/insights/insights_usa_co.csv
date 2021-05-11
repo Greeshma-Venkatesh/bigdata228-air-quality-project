@@ -1,0 +1,93 @@
+city,aqi,category,color_code
+Columbus,2.533143939393939,Good,green
+Anchorage,7.149621212121213,Good,green
+Fairbanks,3.7405303030303028,Good,green
+Phoenix-Mesa-Scottsdale,4.296577946768061,Good,green
+BUTTE,1.4428374655647385,Good,green
+Sacramento--Arden-Arcade--Roseville,2.9907592407592407,Good,green
+Fresno,2.448863636363636,Good,green
+FRESNO,2.3648648648648645,Good,green
+El Centro,2.4264705882352944,Good,green
+Bishop,1.2547348484848486,Good,green
+Bakersfield,2.710227272727273,Good,green
+Los Angeles-Long Beach-Santa Ana,2.6268262987012987,Good,green
+LOS ANGELES,2.923768939393939,Good,green
+Salinas,3.5326086956521756,Good,green
+ORANGE,5.745738636363638,Good,green
+Riverside-San Bernardino-Ontario,2.5223214285714284,Good,green
+SAN BERNARDINO,3.8328598484848477,Good,green
+Stockton,3.104946524064171,Good,green
+Modesto,2.928571428571429,Good,green
+Denver-Aurora,3.6854338842975207,Good,green
+Colorado Springs,4.693526170798899,Good,green
+Durango,4.5033670033670035,Good,green
+Fort Collins-Loveland,3.842975206611571,Good,green
+Greeley,3.0130853994490354,Good,green
+Hartford-West Hartford-East Hartford,1.973814229249012,Good,green
+Torrington,1.4698616600790517,Good,green
+New Haven-Milford,1.8725296442687749,Good,green
+Philadelphia-Camden-Wilmington,1.6443850267379676,Good,green
+Washington-Arlington-Alexandria,2.4314839572192515,Good,green
+Salt Lake City,0.9698899826288362,Good,green
+Jacksonville,3.0397727272727266,Good,green
+Miami-Fort Lauderdale-Miami Beach,2.3996615087040616,Good,green
+HILLSBOROUGH,2.594235033259423,Good,green
+Orlando-Kissimmee,5.65340909090909,Good,green
+PINELLAS,1.6193181818181817,Good,green
+Atlanta-Sandy Springs-Marietta,4.764204545454546,Good,green
+Honolulu,2.6292613636363633,Good,green
+Boise City-Nampa,3.142755681818182,Good,green
+Champaign-Urbana,1.8356643356643356,Good,green
+CLARK,5.511363636363637,Good,green
+St. Louis,4.484848484848485,Good,green
+Davenport-Moline-Rock Island,2.561758893280632,Good,green
+Indianapolis,6.20501893939394,Good,green
+Louisville,4.879261363636364,Good,green
+Evansville,6.131628787878789,Good,green
+Omaha-Council Bluffs,3.369905956112852,Good,green
+Kansas City,3.638833992094862,Good,green
+Cincinnati-Middletown,4.348958333333332,Good,green
+AROOSTOOK,1.5482954545454546,Good,green
+Baltimore-Towson,1.9649621212121213,Good,green
+GARRETT,1.4678030303030305,Good,green
+HOWARD,1.9219367588932803,Good,green
+Providence-New Bedford-Fall River,3.3392518939393936,Good,green
+Boston-Cambridge-Quincy,2.134986225895317,Good,green
+SUFFOLK,0.7411067193675891,Good,green
+Worcester,2.3829201101928374,Good,green
+Grand Rapids-Wyoming,3.6287878787878785,Good,green
+Detroit-Warren-Livonia,2.8327922077922083,Good,green
+WAYNE,5.454545454545455,Good,green
+Minneapolis-St. Paul-Bloomington,4.886363636363636,Good,green
+DAKOTA,2.0075757575757573,Good,green
+Jackson,2.5619834710743805,Good,green
+Columbia,2.571640316205534,Good,green
+GALLATIN,2.132867132867133,Good,green
+Las Vegas-Paradise,4.137073863636363,Good,green
+Reno-Sparks,4.392755681818182,Good,green
+Manchester-Nashua,1.3308080808080809,Good,green
+ROCKINGHAM,1.8358585858585863,Good,green
+New York-Northern New Jersey-Long Island,2.4249188311688314,Good,green
+UNION,1.8540669856459322,Good,green
+Albuquerque,3.0232267732267744,Good,green
+Durham,2.4107142857142856,Good,green
+Raleigh-Cary,2.7011363636363637,Good,green
+Cleveland-Elyria-Mentor,3.6565656565656566,Good,green
+Dayton,1.887351778656126,Good,green
+Oklahoma City,5.089962121212121,Good,green
+Tulsa,3.309659090909091,Good,green
+Portland-Vancouver-Beaverton,1.8714488636363638,Good,green
+PHILADELPHIA,3.715909090909091,Good,green
+Knoxville,1.6387559808612444,Good,green
+Provo-Orem,3.636363636363637,Good,green
+Burlington-South Burlington,1.8434343434343432,Good,green
+Rutland,2.121212121212121,Good,green
+Richmond,2.795454545454546,Good,green
+Roanoke,2.670454545454545,Good,green
+Virginia Beach-Norfolk-Newport News,3.920454545454546,Good,green
+Port Angeles,1.5646853146853144,Good,green
+Seattle-Tacoma-Bellevue,2.5196969696969695,Good,green
+DODGE,3.0875831485587586,Good,green
+MILWAUKEE,3.549901185770751,Good,green
+CONVERSE,1.284435261707989,Good,green
+Cheyenne,0.3477961432506887,Good,green
