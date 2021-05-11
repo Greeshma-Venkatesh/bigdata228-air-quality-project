@@ -1,0 +1,91 @@
+city,aqi,category,color_code
+Columbus,4.97835497835498,Good,green
+Anchorage,2.164502164502165,Good,green
+Fairbanks,1.2445887445887447,Good,green
+Phoenix-Mesa-Scottsdale,2.957637600494744,Good,green
+San Francisco-Oakland-Fremont,3.6868686868686873,Good,green
+ALAMEDA,5.176767676767676,Good,green
+BUTTE,1.8686868686868687,Good,green
+Sacramento--Arden-Arcade--Roseville,2.272727272727273,Good,green
+FRESNO,2.6073232323232327,Good,green
+El Centro,2.323232323232323,Good,green
+Bishop,1.3257575757575757,Good,green
+Bakersfield,3.2386363636363638,Good,green
+Los Angeles-Long Beach-Santa Ana,3.125976257419556,Good,green
+LOS ANGELES,3.7229437229437226,Good,green
+Salinas,0.5411255411255411,Good,green
+Napa,3.964646464646465,Good,green
+ORANGE,8.392857142857144,Good,green
+Riverside-San Bernardino-Ontario,3.0558132343846633,Good,green
+San Jose-Sunnyvale-Santa Clara,3.6395202020202024,Good,green
+SAN BERNARDINO,5.259740259740261,Good,green
+Stockton,2.3620129870129873,Good,green
+Vallejo-Fairfield,4.084595959595959,Good,green
+Santa Rosa-Petaluma,2.058080808080808,Good,green
+Modesto,2.8724747474747474,Good,green
+Denver-Aurora,4.8626893939393945,Good,green
+Colorado Springs,3.762626262626263,Good,green
+Durango,1.4772727272727273,Good,green
+Fort Collins-Loveland,2.740641711229946,Good,green
+Greeley,4.324866310160427,Good,green
+Hartford-West Hartford-East Hartford,2.0075757575757573,Good,green
+Torrington,1.3636363636363633,Good,green
+New Haven-Milford,1.9480519480519483,Good,green
+Washington-Arlington-Alexandria,2.0928030303030303,Good,green
+Salt Lake City,1.6711229946524064,Good,green
+Jacksonville,2.6515151515151523,Good,green
+Miami-Fort Lauderdale-Miami Beach,3.263339920948617,Good,green
+HILLSBOROUGH,2.984449760765549,Good,green
+Orlando-Kissimmee,2.3358585858585865,Good,green
+PINELLAS,2.20959595959596,Good,green
+Atlanta-Sandy Springs-Marietta,3.685064935064935,Good,green
+Honolulu,3.049242424242424,Good,green
+Boise City-Nampa,2.8841991341991347,Good,green
+Champaign-Urbana,1.125,Good,green
+CLARK,6.001082251082252,Good,green
+St. Louis,2.7050395256916993,Good,green
+Davenport-Moline-Rock Island,2.4729437229437234,Good,green
+Indianapolis,4.402056277056277,Good,green
+Louisville,3.172846889952153,Good,green
+Evansville,1.80622009569378,Good,green
+Omaha-Council Bluffs,3.6904761904761902,Good,green
+Kansas City,3.8241106719367606,Good,green
+AROOSTOOK,1.4204545454545452,Good,green
+Baltimore-Towson,1.244588744588745,Good,green
+GARRETT,1.3365800865800865,Good,green
+HOWARD,1.9372294372294367,Good,green
+Providence-New Bedford-Fall River,4.0798226164079825,Good,green
+Boston-Cambridge-Quincy,2.117768595041322,Good,green
+SUFFOLK,0.7575757575757577,Good,green
+Worcester,2.5206611570247937,Good,green
+Minneapolis-St. Paul-Bloomington,4.769119769119768,Good,green
+DAKOTA,1.3041125541125542,Good,green
+Jackson,3.852813852813853,Good,green
+Columbia,2.4837662337662336,Good,green
+Las Vegas-Paradise,4.518398268398268,Good,green
+Reno-Sparks,2.5324675324675323,Good,green
+Manchester-Nashua,1.3699494949494948,Good,green
+ROCKINGHAM,1.8777056277056279,Good,green
+Albuquerque,1.7874692874692875,Good,green
+Durham,1.948051948051948,Good,green
+Raleigh-Cary,2.463733075435203,Good,green
+Cincinnati-Middletown,3.944805194805194,Good,green
+Cleveland-Elyria-Mentor,2.2954545454545454,Good,green
+Dayton,1.807359307359307,Good,green
+ADAIR,4.821428571428571,Good,green
+Oklahoma City,5.438311688311688,Good,green
+Tulsa,2.2240259740259747,Good,green
+Portland-Vancouver-Beaverton,2.6893939393939386,Good,green
+PHILADELPHIA,2.7731259968102075,Good,green
+Provo-Orem,2.588383838383838,Good,green
+Burlington-South Burlington,1.901330376940133,Good,green
+Rutland,1.8750000000000004,Good,green
+Richmond,2.5757575757575757,Good,green
+Roanoke,1.1363636363636365,Good,green
+Virginia Beach-Norfolk-Newport News,2.5252525252525255,Good,green
+Port Angeles,1.2700534759358288,Good,green
+Seattle-Tacoma-Bellevue,3.51010101010101,Good,green
+DODGE,2.8787878787878776,Good,green
+MILWAUKEE,3.0681818181818183,Good,green
+CONVERSE,0.4431818181818182,Good,green
+Fresno,3.0255681818181817,Good,green

@@ -1,0 +1,91 @@
+city,aqi,category,color_code
+Anchorage,2.0833333333333335,Good,green
+Fairbanks,1.8939393939393938,Good,green
+Phoenix-Mesa-Scottsdale,5.085227272727273,Good,green
+El Centro,1.7803030303030303,Good,green
+Bishop,1.1931818181818183,Good,green
+Los Angeles-Long Beach-Santa Ana,3.3406352683461114,Good,green
+LOS ANGELES,3.626893939393939,Good,green
+Salinas,0.7575757575757576,Good,green
+ORANGE,9.441287878787877,Good,green
+Riverside-San Bernardino-Ontario,3.6634199134199132,Good,green
+Sacramento--Arden-Arcade--Roseville,1.9412878787878785,Good,green
+San Jose-Sunnyvale-Santa Clara,3.055555555555556,Good,green
+SAN BERNARDINO,5.899621212121212,Good,green
+Durango,1.6666666666666663,Good,green
+Hartford-West Hartford-East Hartford,8.058712121212121,Good,green
+Torrington,1.5340909090909092,Good,green
+New Haven-Milford,7.509469696969696,Good,green
+Washington-Arlington-Alexandria,4.946969696969697,Good,green
+Miami-Fort Lauderdale-Miami Beach,3.0069930069930066,Good,green
+HILLSBOROUGH,4.356060606060606,Good,green
+Atlanta-Sandy Springs-Marietta,12.737603305785123,Good,green
+Columbus,3.4090909090909096,Good,green
+Boise City-Nampa,3.3198051948051948,Good,green
+CLARK,5.795454545454545,Good,green
+Indianapolis,4.474431818181818,Good,green
+Louisville,4.398674242424243,Good,green
+Evansville,1.9412878787878785,Good,green
+Omaha-Council Bluffs,7.892992424242423,Good,green
+Davenport-Moline-Rock Island,4.65909090909091,Good,green
+Kansas City,5.154958677685951,Good,green
+Cincinnati-Middletown,3.8778409090909096,Good,green
+AROOSTOOK,1.4393939393939394,Good,green
+Baltimore-Towson,2.7462121212121215,Good,green
+GARRETT,1.287878787878788,Good,green
+HOWARD,4.829545454545454,Good,green
+Minneapolis-St. Paul-Bloomington,13.210227272727272,Good,green
+DAKOTA,3.674242424242425,Good,green
+Jackson,9.299242424242426,Good,green
+Columbia,4.3522727272727275,Good,green
+St. Louis,4.096074380165288,Good,green
+Las Vegas-Paradise,3.5700757575757573,Good,green
+Reno-Sparks,2.2253787878787876,Good,green
+Manchester-Nashua,1.4109848484848482,Good,green
+Boston-Cambridge-Quincy,3.928571428571429,Good,green
+ROCKINGHAM,2.7746212121212115,Good,green
+Albuquerque,1.8797348484848486,Good,green
+Durham,2.4483471074380163,Good,green
+Raleigh-Cary,5.227272727272727,Good,green
+Cleveland-Elyria-Mentor,1.5113636363636365,Good,green
+Dayton,1.6950757575757573,Good,green
+ADAIR,5.340909090909091,Good,green
+Oklahoma City,5.918560606060606,Good,green
+Tulsa,2.613636363636364,Good,green
+Portland-Vancouver-Beaverton,2.234848484848485,Good,green
+PHILADELPHIA,4.586489898989899,Good,green
+Providence-New Bedford-Fall River,6.3142292490118574,Good,green
+Burlington-South Burlington,2.8409090909090904,Good,green
+Rutland,3.4090909090909087,Good,green
+DODGE,3.3901515151515147,Good,green
+MILWAUKEE,6.041666666666669,Good,green
+San Francisco-Oakland-Fremont,3.5202020202020208,Good,green
+ALAMEDA,5.315656565656566,Good,green
+BUTTE,1.8181818181818181,Good,green
+FRESNO,2.3484848484848486,Good,green
+Bakersfield,3.090909090909091,Good,green
+Napa,3.977272727272727,Good,green
+Stockton,2.3376623376623376,Good,green
+Vallejo-Fairfield,4.141414141414141,Good,green
+Santa Rosa-Petaluma,2.361111111111111,Good,green
+Modesto,2.3106060606060606,Good,green
+Denver-Aurora,4.869318181818182,Good,green
+Colorado Springs,6.568181818181818,Good,green
+Fort Collins-Loveland,2.9545454545454546,Good,green
+Greeley,4.0681818181818175,Good,green
+Salt Lake City,2.178030303030303,Good,green
+Jacksonville,3.40909090909091,Good,green
+Orlando-Kissimmee,2.3989898989898992,Good,green
+PINELLAS,2.777777777777778,Good,green
+Honolulu,3.0555555555555562,Good,green
+Champaign-Urbana,1.1850649350649352,Good,green
+SUFFOLK,4.399350649350649,Good,green
+Worcester,5.6980519480519485,Good,green
+Provo-Orem,3.914141414141415,Good,green
+Richmond,4.829545454545455,Good,green
+Roanoke,2.272727272727273,Good,green
+Virginia Beach-Norfolk-Newport News,4.040404040404041,Good,green
+Port Angeles,1.3636363636363635,Good,green
+Seattle-Tacoma-Bellevue,2.306149732620321,Good,green
+CONVERSE,0.3863636363636363,Good,green
+Fresno,2.4090909090909087,Good,green

@@ -31,4 +31,14 @@ getWeeklyData(startDate, endDate) : Observable<DailyData[]>{
   return this.http.post<DailyData[]>("http://localhost:5000/openaq/topCitiesAllParamBetweenDates", body);
 }
 
+getWeeklyChartData(startDate, endDate) : Observable<any>{
+  
+  const body = {
+    param: ["so2", "co", "pm10", "pm25"],
+    start_date:startDate,
+    end_date:endDate,
+    pos: "bottom"
+};
+  return this.http.post<any>("http://localhost:5000/openaq/topCitiesDataUiChartWeekly", body);
+}
 }

@@ -1,0 +1,149 @@
+city,aqi,category,color_code
+Phoenix-Mesa-Scottsdale,0.0007692307692307699,Good,green
+Bishop,0.0,Good,green
+San Luis Obispo-Paso Robles,0.0,Good,green
+ARCHULETA,0.0,Good,green
+Washington-Arlington-Alexandria,0.0004081632653061226,Good,green
+Miami-Fort Lauderdale-Miami Beach,0.0,Good,green
+New Orleans-Metairie-Kenner,0.004169884169884172,Good,green
+Jackson,0.0014285714285714297,Good,green
+BRUNSWICK,0.0,Good,green
+Durham,0.0,Good,green
+Winston-Salem,0.0009266409266409272,Good,green
+Greensboro-High Point,0.0,Good,green
+HAYWOOD,0.01737451737451738,Good,green
+Raleigh-Cary,0.0,Good,green
+Greenville,0.0,Good,green
+Philadelphia-Camden-Wilmington,0.0,Good,green
+Youngstown-Warren-Boardman,0.005714285714285719,Good,green
+WASHINGTON,0.0014285714285714297,Good,green
+Birmingham-Hoover,0.0005882352941176471,Good,green
+Fairbanks,0.02405529953917052,Good,green
+GILA,0.003317972350230415,Good,green
+El Centro,0.001085714285714286,Good,green
+Los Angeles-Long Beach-Santa Ana,0.0006605222734254998,Good,green
+Riverside-San Bernardino-Ontario,0.0007603686635944706,Good,green
+Sacramento--Arden-Arcade--Roseville,0.0,Good,green
+Bridgeport-Stamford-Norwalk,0.0,Good,green
+Torrington,0.0,Good,green
+New Haven-Milford,0.0,Good,green
+NEW CASTLE,0.0003686635944700461,Good,green
+Salt Lake City,0.0003379416282642091,Good,green
+Tampa-St. Petersburg-Clearwater,0.0011734693877551027,Good,green
+HILLSBOROUGH,0.0014285714285714297,Good,green
+Macon,0.0014285714285714297,Good,green
+Savannah,0.0014285714285714297,Good,green
+Atlanta-Sandy Springs-Marietta,0.00029953917050691255,Good,green
+Augusta-Richmond County,0.0,Good,green
+Indianapolis,0.0,Good,green
+Louisville,0.0011927877947295433,Good,green
+Chicago-Naperville-Joliet,0.002442396313364057,Good,green
+Evansville,0.0015668202764976967,Good,green
+Terre Haute,0.0014285714285714297,Good,green
+Clinton,0.0,Good,green
+Cedar Rapids,0.0,Good,green
+Muscatine,0.0,Good,green
+MUSCATINE,0.0,Good,green
+Davenport-Moline-Rock Island,0.0,Good,green
+VAN BUREN,0.0,Good,green
+Kansas City,0.0012153518123667387,Good,green
+NEOSHO,0.0014285714285714297,Good,green
+Wichita,0.00317972350230415,Good,green
+TREGO,0.0014285714285714297,Good,green
+AROOSTOOK,0.0,Good,green
+Baltimore-Towson,0.0009907834101382496,Good,green
+DORCHESTER,0.001336405529953918,Good,green
+GARRETT,0.0,Good,green
+Lansing-East Lansing,0.0028571428571428593,Good,green
+Grand Rapids-Wyoming,0.0014285714285714297,Good,green
+MONROE,0.0007675906183368876,Good,green
+Detroit-Warren-Livonia,0.002322580645161291,Good,green
+WAYNE,0.0014285714285714297,Good,green
+Minneapolis-St. Paul-Bloomington,0.0014285714285714297,Good,green
+ST. LOUIS,0.0014285714285714297,Good,green
+Pascagoula,0.0007834101382488484,Good,green
+Springfield,0.0,Good,green
+St. Louis,0.0007142857142857148,Good,green
+Omaha-Council Bluffs,0.0013364055299539177,Good,green
+LANCASTER,0.0,Good,green
+Las Vegas-Paradise,0.0004608294930875577,Good,green
+Reno-Sparks,0.0003686635944700461,Good,green
+Manchester-Nashua,0.0,Good,green
+MERRIMACK,0.0028571428571428593,Good,green
+Boston-Cambridge-Quincy,0.0,Good,green
+ROCKINGHAM,0.0004147465437788019,Good,green
+Albuquerque,0.0005529953917050692,Good,green
+Farmington,0.00025345622119815674,Good,green
+Lima,0.0,Good,green
+Ashtabula,0.005207373271889405,Good,green
+BELMONT,0.0,Good,green
+BUTLER,0.0019508448540706618,Good,green
+Cincinnati-Middletown,0.00043778801843317994,Good,green
+East Liverpool-Salem,0.0,Good,green
+Cleveland-Elyria-Mentor,0.0009250585480093683,Good,green
+CUYAHOGA,0.00018433179723502304,Good,green
+GALLIA,0.0014285714285714297,Good,green
+Weirton-Steubenville,0.0,Good,green
+Portsmouth,0.0,Good,green
+MORGAN,0.0005529953917050692,Good,green
+Dayton,0.0003686635944700461,Good,green
+Akron,0.0,Good,green
+ADAIR,0.0003225806451612904,Good,green
+Oklahoma City,0.0,Good,green
+Tulsa,9.216589861751152e-05,Good,green
+GARFIELD,0.0,Good,green
+Ponca City,0.0,Good,green
+TULSA,0.001935483870967742,Good,green
+Portland-Vancouver-Beaverton,0.0,Good,green
+PHILADELPHIA,0.0007142857142857148,Good,green
+Providence-New Bedford-Fall River,8.928571428571429e-05,Good,green
+Charleston-North Charleston,0.0,Good,green
+Columbia,0.0,Good,green
+YORK,0.0,Good,green
+IRON,0.0014285714285714297,Good,green
+Burlington-South Burlington,0.0,Good,green
+Rutland,0.0004608294930875577,Good,green
+Green Bay,0.0007373271889400925,Good,green
+Madison,0.0,Good,green
+DODGE,0.0,Good,green
+FOREST,4.608294930875576e-05,Good,green
+Milwaukee-Waukesha-West Allis,0.0,Good,green
+ONEIDA,0.0,Good,green
+CHARLESTON,0.0,Good,green
+OUTAGAMIE,0.0,Good,green
+Mobile,0.00034285714285714285,Good,green
+SUMTER,0.0,Good,green
+San Francisco-Oakland-Fremont,0.001785714285714287,Good,green
+FRESNO,0.0,Good,green
+Vallejo-Fairfield,0.0014285714285714297,Good,green
+Denver-Aurora,0.0002666666666666668,Good,green
+Colorado Springs,0.0011428571428571432,Good,green
+DUVAL,0.0015142857142857154,Good,green
+Hilo,0.023508571428571406,Good,green
+HAWAII,0.005365853658536588,Good,green
+Honolulu,0.0,Good,green
+Portland-South Portland-Biddeford,0.0,Good,green
+HANCOCK,0.0,Good,green
+YELLOWSTONE,0.0008571428571428575,Good,green
+Atlantic City,0.0,Good,green
+New York-Northern New Jersey-Long Island,4.2857142857142856e-05,Good,green
+UNION,0.0,Good,green
+WARREN,0.0,Good,green
+Richmond,0.0,Good,green
+Roanoke,0.000685714285714286,Good,green
+Harrisonburg,0.0014285714285714297,Good,green
+Virginia Beach-Norfolk-Newport News,0.0014285714285714297,Good,green
+Port Angeles,0.0,Good,green
+Seattle-Tacoma-Bellevue,0.0,Good,green
+DUNN,0.0002285714285714286,Good,green
+HAMPDEN,0.0,Good,green
+Worcester,0.0,Good,green
+Kingsport-Bristol-Bristol,0.0016450216450216459,Good,green
+Riverton,0.0002521008403361345,Good,green
+Cheyenne,0.0,Good,green
+Rock Springs,8.403361344537815e-05,Good,green
+SWEETWATER,0.0014285714285714292,Good,green
+BEAUFORT,0.0,Good,green
+Boise City-Nampa,0.0,Good,green
+Pocatello,0.009682539682539683,Good,green
+CARIBOU,0.0,Good,green
