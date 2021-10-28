@@ -1,4 +1,6 @@
 # projectdata228
+## Group Project for SJSU MSDA
+### Developers: Greeshma, Jyothi, Payal
 This is the project on Air Quality using open data on AWS
 
 Planned:
